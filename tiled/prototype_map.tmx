@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.2" orientation="staggered" renderorder="right-down" width="10" height="10" tilewidth="128" tileheight="64" infinite="0" staggeraxis="y" staggerindex="odd" nextlayerid="3" nextobjectid="1">
+  <tileset firstgid="1" source="prototype_map.tsx"/>
+  <layer id="1" name="Floor" width="10" height="10">
+    <data encoding="csv">
+1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1
+    </data>
+  </layer>
+  <layer id="2" name="Obstacles" width="10" height="10">
+    <data encoding="csv">
+0,0,0,2,0,2,0,2,2,2,
+0,0,0,2,0,2,0,2,2,2,
+0,0,2,0,2,0,2,0,2,2,
+0,2,0,0,0,0,0,0,2,2,
+0,2,0,3,0,2,0,2,0,2,
+2,0,3,0,2,2,2,2,0,2,
+0,2,0,0,0,2,0,2,0,0,
+0,2,0,0,0,0,0,0,2,0,
+0,0,2,0,2,0,2,0,0,0,
+0,0,2,0,2,2,2,0,0,0
+    </data>
+  </layer>
+</map>
